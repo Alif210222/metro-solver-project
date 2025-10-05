@@ -1,0 +1,48 @@
+
+[
+  {
+    "id": 1,
+    "name": "Deluxe Dog Bed",
+    "price": 49.99,
+    "category": "Beds",
+    "description": "Soft and cozy bed for your furry friend.",
+    "image": "https://placehold.co/400x300?text=Dog+Bed",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Cat Scratching Post",
+    "price": 29.99,
+    "category": "Toys",
+    "description": "Durable scratching post to keep your cat entertained.",
+    "image": "https://placehold.co/400x300?text=Cat+Post",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Pet Food Bowl",
+    "price": 12.99,
+    "category": "Accessories",
+    "description": "Stainless steel non-slip food bowl.",
+    "image": "https://placehold.co/400x300?text=Food+Bowl",
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Chew Toy",
+    "price": 8.99,
+    "category": "Toys",
+    "description": "Durable chew toy for dogs of all sizes.",
+    "image": "https://placehold.co/400x300?text=Chew+Toy",
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Premium Cat Food",
+    "price": 19.99,
+    "category": "Food",
+    "description": "Nutritious and delicious food for your cat.",
+    "image": "https://placehold.co/400x300?text=Cat+Food",
+    "inStock": true
+  }
+]

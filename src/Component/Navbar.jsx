@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router';
-import logo from "../assets/logo-header.png"
+import logo from "../assets/Logo Motion.png"
 
 const Navbar = () => {
 
 
        const links = <>
 
-         <li className='  text-black   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/'>Home</NavLink></li>
-         <li className='  text-black   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>Dashboard</NavLink></li>
-         <li className='  text-black   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>Dashboard</NavLink></li>
-         <li className='  text-black   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>Dashboard</NavLink></li>
-         <li className='  text-black   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>Dashboard</NavLink></li>
+         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/'>Home</NavLink></li>
+         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>About us</NavLink></li>
+         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'></NavLink></li>
+         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>White label</NavLink></li>
+         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>Contact us</NavLink></li>
          
           
        
@@ -21,7 +21,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-gradient-to-r from-[#0a0400] via-[#321900]   to-[#070000] shadow-sm px-2 md:px-20 py-4  fixed top-0 z-50">
+        <div className="navbar bg-[#2c2c46] shadow-sm px-2 md:px-20 py-4  fixed top-0 z-50">
    <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
@@ -35,13 +35,13 @@ const Navbar = () => {
        }
       </ul>
     </div>
-    <Link to="/" className="btn btn-ghost text-xl md:text-3xl text-white"><span>
-          <img src={logo} className='w-6 h-6 md:w-10 md:h-10' alt="" />
+    <Link to="/" className="  text-xl md:text-3xl "><span>
+          <img src={logo} className='w-16 h-16 md:w-30 md:h-20' alt="" />
          
          </span> </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal   backdrop-blur-md bg-white/10  border-white/20 shadow-md rounded-md px-6 py-2 text-white">
+    <ul className="menu menu-horizontal   backdrop-blur-md bg-white/20  border-white/20 shadow-md rounded-full px-6 py-2 text-white">
      {
         links
      }

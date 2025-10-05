@@ -2,6 +2,7 @@ import React from 'react';
 import CardComponent from '../Component/CardComponent';
 import CaseStudyComponent from '../Component/CaseStudyComponent';
 import BlogComponent from '../Component/BlogComponent';
+import OurServices from '../Component/ServiceCard';
 
 
 const Homepage = () => {
@@ -12,6 +13,8 @@ const Homepage = () => {
            <CaseStudyComponent></CaseStudyComponent>
 
            <BlogComponent></BlogComponent>
+
+           <OurServices></OurServices>
         </div>
     );
 };

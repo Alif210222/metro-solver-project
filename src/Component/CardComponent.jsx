@@ -4,7 +4,7 @@ import cardImage from "../assets/chart Image.jpg"
 
 const CardComponent = () => {
   return (
-    <div className="min-h-screen bg-[#1E2532] text-white flex flex-col items-center px-6 mt-26 pt-10">
+    <div className="min-h-screen bg-[#1E2532] text-white flex flex-col items-center px-6 mt-24 pt-10  ">
       {/* Title Section */}
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold mb-3">
@@ -18,7 +18,7 @@ const CardComponent = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-30 mb-12">
+      <div className="md:flex gap-30 mb-12 hidden ">
         <button className="bg-[#320a49] text-white font-medium py-2 px-20 rounded-full shadow-lg border border-[#c466f0]">
           Success Stories
         </button>

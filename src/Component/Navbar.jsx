@@ -7,11 +7,11 @@ const Navbar = () => {
 
        const links = <>
 
-         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/'>Home</NavLink></li>
-         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>About us</NavLink></li>
-         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'></NavLink></li>
-         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>White label</NavLink></li>
-         <li className='  text-white   text-lg lg:mr-3 '><NavLink className={({isActive})=> isActive ? "text-orange-400 " :"" } to='/dashboard'>Contact us</NavLink></li>
+         <li className='  text-white border p-2 rounded-full px-4 border-[#9e1ee9]  text-md lg:mr-3 '>Home</li>
+         <li className='  text-white border border-white/10  p-2 rounded-full px-4  text-md lg:mr-3 hover:border-[#9e1ee9]'>About us</li>
+         <li className='  text-white border border-white/10 p-2 rounded-full px-4 text-md lg:mr-3 hover:border-[#9e1ee9]'>Product</li>
+         <li className='  text-white border border-white/10 p-2 rounded-full px-4 text-md lg:mr-3 hover:border-[#9e1ee9]'>White label</li>
+         <li className='  text-white border border-white/10 p-2 rounded-full px-4 text-md lg:mr-3 hover:border-[#9e1ee9]'>contact us</li>
          
           
        
@@ -41,7 +41,7 @@ const Navbar = () => {
          </span> </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal   backdrop-blur-md bg-white/20  border-white/20 shadow-md rounded-full px-6 py-2 text-white">
+    <ul className="menu menu-horizontal   backdrop-blur-md bg-white/10  border-white/20 shadow-md rounded-full  px-8 py-3  text-white">
      {
         links
      }

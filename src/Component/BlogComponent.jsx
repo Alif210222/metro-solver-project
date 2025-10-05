@@ -19,7 +19,7 @@ const BlogComponent = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-30 mb-12">
+      <div className="md:flex hidden gap-30 mb-12">
         <button className="bg-[#2A3142] text-gray-300 font-medium py-2 px-20 rounded-full">
           Success Stories
         </button>
@@ -135,7 +135,7 @@ const BlogComponent = () => {
 
       {/* View More Button */}
       
-         <div className="inline-block p-[1px] rounded-full bg-gradient-to-r from-[#5B2BE0] to-[#d5d3d6] mt-14">
+         <div className="inline-block p-[1px] rounded-full bg-gradient-to-r from-[#5B2BE0] to-[#d5d3d6] mt-14 mb-8">
   <button className="bg-[#320a49] text-white font-medium py-3 px-10 rounded-full transition">
     View More
   </button>

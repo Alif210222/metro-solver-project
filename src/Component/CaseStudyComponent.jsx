@@ -19,7 +19,7 @@ const CaseStudyComponent = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-30 mb-12">
+      <div className="md:flex hidden gap-30 mb-12">
         <button className="bg-[#2A3142] text-gray-300 font-medium py-2 px-20 rounded-full">
           Success Stories
         </button>

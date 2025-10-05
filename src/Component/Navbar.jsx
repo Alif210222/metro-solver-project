@@ -36,7 +36,7 @@ const Navbar = () => {
       </ul>
     </div>
     <Link to="/" className="  text-xl md:text-3xl "><span>
-          <img src={logo} className='w-16 h-16 md:w-30 md:h-20' alt="" />
+          <img src={logo} className='w-16 h-16 md:w-40 md:h-20' alt="" />
          
          </span> </Link>
   </div>
@@ -50,39 +50,7 @@ const Navbar = () => {
   <div className="navbar-end space-x-2.5">
 
 
-       
-  (
-    <div className="dropdown dropdown-end">
-      <div className='text-center'>
-      <div
-        tabIndex={0}
-        role="button"
-        className="btn btn-ghost btn-circle avatar border border-white/20 hover:border-white"
-      >
-        <div className="w-12 rounded-full">
-          <img src={"/default-user.png"} alt="User Profile" />
-        </div>
-        
-      </div>
-       
-       <p className=' text-amber-600 font-medium'>My Profile</p>
-        </div>
-      <ul
-        tabIndex={0}
-        className="mt-3 z-[1] p-3 shadow-lg menu menu-sm dropdown-content bg-white/10 text-white backdrop-blur-md rounded-box w-52 border border-white/20"
-      >
-        <li className="font-semibold">
-          <span>Hello, User </span>
-        </li>
-        <li className='font-bold hover:text-amber-600'>
-          <NavLink to="/dashboard">Dashboard</NavLink>
-        </li>
-        <li className='font-bold hover:text-amber-600'>
-          <button >Logout</button>
-        </li>
-      </ul>
-    </div>
-  )
+      <button className='bg-[#320a49] px-5 py-2 text-white rounded-full border border-[#a616ca]'>Sing up</button>
     
   </div>
 </div>

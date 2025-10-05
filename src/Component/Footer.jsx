@@ -2,6 +2,8 @@
 import React from "react";
 import { BsGlobeAsiaAustralia } from "react-icons/bs";
 import { FaChevronDown } from "react-icons/fa6";
+ import logo from "../assets/Logo Motion.png"
+import { Link } from "react-router";
 
 
 const Footer = () => {
@@ -12,9 +14,12 @@ const Footer = () => {
         {/*  Newsletter Banner */}
         <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#2b2f3a]/60 via-[#3b2a56]/50 to-[#211a2b]/40 p-8 md:p-12 mb-12 shadow-inner">
           <div className="flex flex-col md:flex-row items-center gap-8">
-            {/* Logo + Heading */}
+            <Link to="/" className="  text-xl md:text-3xl "><span>
+          <img src={logo} className='w-16 h-16 md:w-40 md:h-20' alt="" />
+         
+         </span> </Link>
             <div className="flex-1 flex items-start gap-6">
-              {/* Small inline logo (replace with your image/svg) */}
+            
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-lg bg-gradient-to-tr from-[#4fa3ff] to-[#9b5bff] flex items-center justify-center">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -180,9 +185,9 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-sm text-gray-400">Our Future Partners</div>
 
-            {/* partner logos */}
+          
             <div className="md:flex hidden items-center gap-6 overflow-x-auto py-4">
-              {/* Replace the placeholder boxes below with real partner logos */}
+              
               {[
                 "Meta",
                 "Google Marketing Platform",

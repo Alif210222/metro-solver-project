@@ -18,14 +18,14 @@ const CardComponent = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-55 mb-12">
-        <button className="bg-[#320a49] text-white font-medium py-2 px-8 rounded-full shadow-lg border border-[#c466f0]">
+      <div className="flex gap-30 mb-12">
+        <button className="bg-[#320a49] text-white font-medium py-2 px-20 rounded-full shadow-lg border border-[#c466f0]">
           Success Stories
         </button>
-        <button className="bg-[#2A3142] text-gray-300 font-medium py-2 px-8 rounded-full">
+        <button className="bg-[#2A3142] text-gray-300 font-medium py-2 px-20 rounded-full">
           Case Studies
         </button>
-        <button className="bg-[#2A3142] text-gray-300 font-medium py-2 px-8 rounded-full">
+        <button className="bg-[#2A3142] text-gray-300 font-medium py-2 px-20 rounded-full">
           Blog and News
         </button>
       </div>
@@ -129,7 +129,7 @@ const CardComponent = () => {
 
       {/* View More Button */}
       
-         <div className="inline-block p-[2px] rounded-full bg-gradient-to-r from-[#5B2BE0] to-[#d5d3d6] mt-14">
+         <div className="inline-block p-[1px] rounded-full bg-gradient-to-r from-[#5B2BE0] to-[#d5d3d6] mt-14">
   <button className="bg-[#320a49] text-white font-medium py-3 px-10 rounded-full transition">
     View More
   </button>
